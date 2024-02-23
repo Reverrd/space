@@ -2,4 +2,14 @@
     background-image: url('../assets/background-home-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    display: block;
+}
+
+@media screen and (max-width:800px ) {
+    .homepageWrapper{
+        background-image: url('../assets/background-home-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+    }
 }
